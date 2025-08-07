@@ -7,6 +7,9 @@
     <meta name="keywords" content="web design, portfolio, HTML5, student project">
     <meta name="author" content="Martin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive scaling -->
+
+<link rel="stylesheet" href="styles.css"/>
+
     <title>Martin's Portfolio</title>
 </head>
 
