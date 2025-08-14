@@ -7,45 +7,84 @@
     <meta name="keywords" content="web design, portfolio, HTML5, student project">
     <meta name="author" content="Martin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive scaling -->
-
-<link rel="stylesheet" href="styles.css"/>
-
     <title>Martin's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to My Website!</h1>
-        <!-- Navigation Menu Starts Here -->
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+<h1>Welcome to My Website!</h1>
+<!-- Navigation Menu Starts Here -->
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
 <!-- Main Content Starts Here -->
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a student passionate about web development, gaming, and creative writing.</p>
-        </section>
+<main>
+<section id="about">
+<h2>About Me</h2>
+<p>I'm a student passionate about web development, gaming, and creative writing.</p>
+</section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Here's a preview of the websites and creative projects I’ve built and plan to share.</p>
-        </section>
+<section id="projects">
+<h2>Projects</h2>
+<table>
+< caption›Sample Projects</caption>
+<colgroup>
+‹col style="background-color: #F0F8FF;" /› 
+<col>
+‹col style-"background-color: #F0F8FF;" /› 
+</colgroup>
+‹thead>
+＜tr>
+<th>Project Name</th> 
+< th>Description</th> 
+<th> Image</th>
+</tr>
+</thead>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Reach me by email or follow me on social platforms linked below.</p>
-        </section>
-    </main>
+<tbody>
+＜tr>
+< td>Portfolio Website</td>
+<td>A personal ebsite to showcase my work and skills.</td>
+<td>
+<img src="https://via.placeholden.com/100* alt=*Portfolio Preview" />
+</td>
+
+<tr>
+<td>Game Tracker</td>
+<td>A web app to track games I have played and want to play.</td>
+<td>
+<img src="https://via.placeholder.com/100"
+alt="Portfolio Preview" />
+</tr>
+
+</tbody>
+
+<tfoot>
+
+<tr>
+<td colspan="3">More projects coming soon!
+</td>
+
+</tfoot>
+</table>
+
+<p>Here's a preview of the websites and creative projects I’ve built and plan to share.</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Reach me by email or follow me on social platforms linked below.</p>
+</section>
+</main>
 <!-- Footer with HTML Entity -->
-    <footer>
-        <p>&copy; 2025 Martin’s Webspace. Made with passion &hearts; by a future web developer.</p>
-    </footer>
+<footer>
+<p>&copy; 2025 Martin’s Webspace. Made with passion &hearts; by a future web developer.</p>
+</footer>
 </body>
 
 </html>
