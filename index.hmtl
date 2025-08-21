@@ -28,20 +28,34 @@
 <h2>About Me</h2>
 <p>I'm a student passionate about web development, gaming, and creative writing.</p>
 </section>
-
 <section id="projects">
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Reach me by email or follow me on social platforms linked below.</p>
+  <form id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
 <h2>Projects</h2>
 <table>
-< caption›Sample Projects</caption>
+<caption›Sample Projects</caption>
 <colgroup>
 ‹col style="background-color: #F0F8FF;" /› 
 <col>
 ‹col style-"background-color: #F0F8FF;" /› 
 </colgroup>
 ‹thead>
-＜tr>
+<tr>
 <th>Project Name</th> 
-< th>Description</th> 
+<th>Description</th> 
 <th> Image</th>
 </tr>
 </thead>
